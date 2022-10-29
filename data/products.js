@@ -1,6 +1,6 @@
 const products = [
     {
-        name: 'Airpods Wireless Bluetooth Headphones',
+        name: 'Airpods Bluetooth Headphones',
         image: '/images/airpods.jpg',
         description:
             'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
@@ -36,7 +36,7 @@ const products = [
         numReviews: 3,
     },
     {
-        name: 'Sony Playstation 4 Pro White Version',
+        name: 'Sony Playstation 4 Pro',
         image: '/images/playstation.jpg',
         description:
             'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',

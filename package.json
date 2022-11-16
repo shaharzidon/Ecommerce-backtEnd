@@ -6,12 +6,12 @@
   "type": "module",
   "scripts": {
     "start": "node server",
-    "server": "node server",
+    "server": "node backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "data:import": "node seeder",
-    "data:destroy": "node seeder -d",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true npm install  && npm start"
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true npm start"
   },
   "author": "Brad Traversy",
   "license": "MIT",

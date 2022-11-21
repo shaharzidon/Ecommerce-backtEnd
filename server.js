@@ -11,11 +11,15 @@ import userRoutes from './routes/userRoutes.js'
 import orderRoutes from './routes/orderRoutes.js'
 import uploadRoutes from './routes/uploadRoutes.js'
 
+var cors = require('cors')
+
 dotenv.config()
 
 connectDB()
 
 const app = express()
+
+app.use(cors())
 
 if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'))
